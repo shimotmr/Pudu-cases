@@ -1,0 +1,5 @@
+{
+  "name": "Pudu Video Case Library",
+  "description": "A comprehensive video case library for Pudu Robotics products, featuring filtering, search, and admin management powered by Google Apps Script.",
+  "requestFramePermissions": []
+}
