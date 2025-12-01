@@ -1,9 +1,10 @@
+
 import { VideoCase } from './types';
 
 export const INITIAL_DATA: VideoCase[] = [
-  // --- 1. Product Promo ---
+  // --- 1. Product Promo (Page 3) ---
   {
-    id: '101',
+    id: '1-01',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -14,7 +15,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '102',
+    id: '1-02',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -25,18 +26,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '103',
+    id: '1-03',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
-    robotType: 'FlashBot',
-    clientName: 'FlashBot Promo',
+    robotType: 'SwiftBot',
+    clientName: 'SwiftBot Promo',
     videoUrl: 'https://www.youtube.com/watch?v=taICF8-mlRI',
     rating: 5,
     keywords: ['Promo'],
   },
   {
-    id: '104',
+    id: '1-04',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -47,7 +48,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '105',
+    id: '1-05',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -58,7 +59,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '106',
+    id: '1-06',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -69,7 +70,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '107',
+    id: '1-07',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -80,29 +81,29 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '108',
+    id: '1-08',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
     robotType: 'FlashBot',
-    clientName: 'FlashBot Box Promo',
+    clientName: 'FlashBot Promo',
     videoUrl: 'https://www.youtube.com/watch?v=ZhNCUcAWEYU',
     rating: 5,
     keywords: ['Promo'],
   },
   {
-    id: '109',
+    id: '1-09',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
-    robotType: 'SwiftBot',
-    clientName: 'SwiftBot Promo',
+    robotType: 'TigerBot',
+    clientName: 'TigerBot Promo',
     videoUrl: 'https://www.youtube.com/watch?v=iNQbSRE7AS0',
     rating: 5,
     keywords: ['Promo'],
   },
   {
-    id: '110',
+    id: '1-10',
     category: 'Promo',
     subcategory: 'Product Series',
     region: 'Global',
@@ -113,42 +114,42 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Promo'],
   },
   {
-    id: '111',
+    id: '1-11',
     category: 'Promo',
     subcategory: 'IOT Series',
     region: 'Global',
     robotType: 'IOT',
-    clientName: 'Pager - Office Scene',
+    clientName: 'Pager - Office',
     videoUrl: 'https://www.youtube.com/watch?v=9D0i8AK0kAM',
-    rating: 4,
-    keywords: ['IOT', 'Pager'],
+    rating: 5,
+    keywords: ['Promo', 'Pager'],
   },
   {
-    id: '112',
+    id: '1-12',
     category: 'Promo',
     subcategory: 'IOT Series',
     region: 'Global',
     robotType: 'IOT',
-    clientName: 'Pager - Factory Scene',
+    clientName: 'Pager - Factory',
     videoUrl: 'https://www.youtube.com/watch?v=bgk9svAuMcs',
-    rating: 4,
-    keywords: ['IOT', 'Pager'],
+    rating: 5,
+    keywords: ['Promo', 'Pager'],
   },
   {
-    id: '113',
+    id: '1-13',
     category: 'Promo',
     subcategory: 'IOT Series',
     region: 'Global',
     robotType: 'IOT',
     clientName: 'Menu Locator',
     videoUrl: 'https://www.youtube.com/watch?v=6mus8nV2Mtc',
-    rating: 4,
-    keywords: ['IOT', 'Menu Locator'],
+    rating: 5,
+    keywords: ['Promo', 'Menu Locator'],
   },
 
-  // --- 2. Catering: Western ---
+  // --- 2. Catering: Western (Page 4-5) ---
   {
-    id: '201',
+    id: '2-01',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Ireland',
@@ -159,18 +160,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '202',
+    id: '2-02',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Ireland',
     robotType: 'HolaBot',
     clientName: "Pandini's",
-    videoUrl: 'https://drive.google.com/file/d/1gecgUZV_UPxsAatYjrGFoTa3N-kMcIUn/view?usp=share_link',
+    videoUrl: 'https://drive.google.com/file/d/1gecgUZV_UPxsAatYjrGFoTa3N-kMcIUn/view?usp=share_link', // Placeholder for "好啦-西餐-爱尔兰-20210621.mp4" if direct link not available, using Drive fallback or original filename text
     rating: 2,
     keywords: ['Delivery Mode'],
   },
   {
-    id: '203',
+    id: '2-03',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Australia',
@@ -181,7 +182,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '204',
+    id: '2-04',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Austria',
@@ -192,7 +193,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker'],
   },
   {
-    id: '205',
+    id: '2-05',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Austria',
@@ -203,7 +204,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Sticker', 'Semi-outdoor'],
   },
   {
-    id: '206',
+    id: '2-06',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Poland',
@@ -214,7 +215,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '207',
+    id: '2-07',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Poland',
@@ -225,7 +226,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '208',
+    id: '2-08',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Poland',
@@ -236,7 +237,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '209',
+    id: '2-09',
     category: 'Catering',
     subcategory: 'Western',
     region: 'UAE',
@@ -247,7 +248,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '210',
+    id: '2-10',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Netherlands',
@@ -258,7 +259,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '211',
+    id: '2-11',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Canada',
@@ -269,7 +270,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode', 'Touch'],
   },
   {
-    id: '212',
+    id: '2-12',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Croatia',
@@ -280,7 +281,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker', 'Birthday Mode'],
   },
   {
-    id: '213',
+    id: '2-13',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Malta',
@@ -291,7 +292,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Touch', 'Delivery Mode'],
   },
   {
-    id: '214',
+    id: '2-14',
     category: 'Catering',
     subcategory: 'Western',
     region: 'USA',
@@ -302,7 +303,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '215',
+    id: '2-15',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Mexico',
@@ -313,7 +314,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '216',
+    id: '2-16',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Europe',
@@ -324,7 +325,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '217',
+    id: '2-17',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Europe',
@@ -335,7 +336,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '218',
+    id: '2-18',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Japan',
@@ -346,7 +347,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode', 'Touch', 'Birthday Mode'],
   },
   {
-    id: '219',
+    id: '2-19',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Japan',
@@ -357,7 +358,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Tray', 'Button', 'Ad'],
   },
   {
-    id: '220',
+    id: '2-20',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Saudi Arabia',
@@ -368,7 +369,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '221',
+    id: '2-21',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Slovenia',
@@ -379,7 +380,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '222',
+    id: '2-22',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Taiwan',
@@ -390,7 +391,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Sticker'],
   },
   {
-    id: '223',
+    id: '2-23',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Spain',
@@ -401,7 +402,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '224',
+    id: '2-24',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Spain',
@@ -412,7 +413,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '225',
+    id: '2-25',
     category: 'Catering',
     subcategory: 'Western',
     region: 'New Zealand',
@@ -423,7 +424,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '226',
+    id: '2-26',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Italy',
@@ -434,7 +435,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Birthday Mode', 'Dish Return', 'Touch'],
   },
   {
-    id: '227',
+    id: '2-27',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Italy',
@@ -445,7 +446,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '228',
+    id: '2-28',
     category: 'Catering',
     subcategory: 'Western',
     region: 'Italy',
@@ -456,20 +457,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
 
-  // --- 2. Catering: Japanese/Korean ---
+  // --- 2. Catering: Japanese/Korean (Page 5-6) ---
   {
-    id: '301',
+    id: '2-JK-01',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Korean Restaurant',
-    videoUrl: '', // Link broken in source or generic
+    videoUrl: '', // Placeholder: "韩餐 Korean Restaurant"
     rating: 2,
     keywords: ['Delivery Mode', 'Running'],
   },
   {
-    id: '302',
+    id: '2-JK-02',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Canada',
@@ -480,7 +481,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Birthday Mode'],
   },
   {
-    id: '303',
+    id: '2-JK-03',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Malaysia',
@@ -491,7 +492,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '304',
+    id: '2-JK-04',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Malaysia',
@@ -502,7 +503,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '305',
+    id: '2-JK-05',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Malaysia',
@@ -513,7 +514,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '306',
+    id: '2-JK-06',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'USA',
@@ -524,7 +525,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Touch', 'Delivery Mode'],
   },
   {
-    id: '307',
+    id: '2-JK-07',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'USA',
@@ -535,7 +536,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '308',
+    id: '2-JK-08',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'USA',
@@ -546,7 +547,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '309',
+    id: '2-JK-09',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'USA',
@@ -557,7 +558,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Large Screen Ad'],
   },
   {
-    id: '310',
+    id: '2-JK-10',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Norway',
@@ -568,29 +569,29 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '311',
+    id: '2-JK-11',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Japan',
     robotType: 'BellaBot',
-    clientName: 'Japanese Restaurant',
+    clientName: 'Soba Hamamipi',
     videoUrl: 'https://www.youtube.com/watch?v=P6SRXykBnIc',
     rating: 2,
     keywords: ['Delivery Mode', 'Touch'],
   },
   {
-    id: '312',
+    id: '2-JK-12',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Japan',
-    robotType: 'BellaBot',
-    clientName: 'Watami',
+    robotType: 'BellaBot', // Also KettyBot listed
+    clientName: 'Watami Yakiniku',
     videoUrl: 'https://www.youtube.com/watch?v=bGlRz6Z4CxE',
     rating: 2,
     keywords: ['Delivery Mode', 'Touch'],
   },
   {
-    id: '313',
+    id: '2-JK-13',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Japan',
@@ -601,7 +602,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Watch', 'Dish Return Mode'],
   },
   {
-    id: '314',
+    id: '2-JK-14',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Japan',
@@ -612,18 +613,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Tray', 'Running'],
   },
   {
-    id: '315',
+    id: '2-JK-15',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Taiwan',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & HolaBot
     clientName: 'Carbon',
     videoUrl: 'https://drive.google.com/file/d/1XIAPnYOcrSyo53b5GpzCOxwZz529lgeb/view?usp=share_link',
     rating: 2,
     keywords: ['Sticker'],
   },
   {
-    id: '316',
+    id: '2-JK-16',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Spain',
@@ -634,7 +635,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Touch', 'Delivery Mode'],
   },
   {
-    id: '317',
+    id: '2-JK-17',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'Spain',
@@ -645,7 +646,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '318',
+    id: '2-JK-18',
     category: 'Catering',
     subcategory: 'Japanese/Korean',
     region: 'UK',
@@ -656,20 +657,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
 
-  // --- 2. Catering: Fast Food ---
+  // --- 3. Catering: Fast Food (Page 7) ---
   {
-    id: '401',
+    id: '3-01',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Australia',
     robotType: 'PuduBot',
     clientName: "Dougie's Grill",
-    videoUrl: '', 
+    videoUrl: '', // "欢乐送-汉堡店-澳大利亚-20210805.MP4"
     rating: 1,
     keywords: ['Delivery Mode', 'Running'],
   },
   {
-    id: '402',
+    id: '3-02',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Poland',
@@ -680,7 +681,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '403',
+    id: '3-03',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Poland',
@@ -691,29 +692,29 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad', 'Sticker'],
   },
   {
-    id: '404',
+    id: '3-04',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Russia',
     robotType: 'PuduBot',
-    clientName: 'Restaurant',
-    videoUrl: '',
+    clientName: 'Pizza Shop',
+    videoUrl: '', // "俄罗斯-Pizza 店-20211019.mp4"
     rating: 2,
     keywords: ['Delivery Mode', 'Running'],
   },
   {
-    id: '405',
+    id: '3-05',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Russia',
     robotType: 'PuduBot',
     clientName: 'Pizza Factory',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-Pizza 店-俄罗斯-20211203.mp4"
     rating: 2,
     keywords: ['Delivery Mode', 'Running'],
   },
   {
-    id: '406',
+    id: '3-06',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Costa Rica',
@@ -724,18 +725,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad', 'Sticker'],
   },
   {
-    id: '407',
+    id: '3-07',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Texas BBQ',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-汉堡店-韩国.MP4"
     rating: 2,
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '408',
+    id: '3-08',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Canada',
@@ -746,7 +747,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '409',
+    id: '3-09',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Canada',
@@ -757,7 +758,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '410',
+    id: '3-10',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Malaysia',
@@ -768,29 +769,29 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '411',
+    id: '3-11',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'USA',
-    robotType: 'KettyBot',
+    robotType: 'KettyBot', // & Bella
     clientName: 'Avantis Ristorante',
-    videoUrl: 'https://www.facebook.com/watch/?v=398290171901873',
+    videoUrl: 'https://www.facebook.com/watch/?ref=search&v=398290171901873&external_log_id=2582a5ba',
     rating: 3,
     keywords: ['Host Mode', 'Large Screen Ad', 'Delivery Mode'],
   },
   {
-    id: '412',
+    id: '3-12',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'USA',
     robotType: 'PuduBot',
-    clientName: 'Chicken-fil-a',
+    clientName: 'chicken-fil-a',
     videoUrl: 'https://youtu.be/t1sQoylLX9s',
     rating: 1,
     keywords: ['Delivery Mode'],
   },
   {
-    id: '413',
+    id: '3-13',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Saudi Arabia',
@@ -801,7 +802,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '414',
+    id: '3-14',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Guatemala',
@@ -812,18 +813,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker', 'Large Screen Ad'],
   },
   {
-    id: '415',
+    id: '3-15',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'New Zealand',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & HolaBot
     clientName: 'TVNZ',
     videoUrl: 'https://www.youtube.com/watch?v=_e41k94lrLc',
     rating: 2,
     keywords: ['Running'],
   },
   {
-    id: '416',
+    id: '3-16',
     category: 'Catering',
     subcategory: 'Fast Food',
     region: 'Chile',
@@ -834,9 +835,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
 
-  // --- 2. Catering: Hotpot ---
+  // --- 4. Catering: Hotpot (Page 7-8) ---
   {
-    id: '501',
+    id: '4-01',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Malaysia',
@@ -847,18 +848,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '502',
+    id: '4-02',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'USA',
     robotType: 'PuduBot',
     clientName: 'Haidilao',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-火锅店-美国.MP4"
     rating: 1,
     keywords: ['Birthday Mode'],
   },
   {
-    id: '503',
+    id: '4-03',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Japan',
@@ -869,7 +870,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '504',
+    id: '4-04',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Thailand',
@@ -880,7 +881,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Delivery Mode', 'Decoration'],
   },
   {
-    id: '505',
+    id: '4-05',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Spain',
@@ -891,7 +892,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker', 'Touch'],
   },
   {
-    id: '506',
+    id: '4-06',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Spain',
@@ -902,7 +903,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '507',
+    id: '4-07',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'Singapore',
@@ -913,7 +914,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Dish Return'],
   },
   {
-    id: '508',
+    id: '4-08',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'China',
@@ -924,7 +925,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '509',
+    id: '4-09',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'China',
@@ -935,7 +936,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '510',
+    id: '4-10',
     category: 'Catering',
     subcategory: 'Hotpot',
     region: 'China',
@@ -946,9 +947,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
 
-  // --- 2. Catering: Cafe ---
+  // --- 5. Catering: Cafe (Page 8) ---
   {
-    id: '601',
+    id: '5-01',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Poland',
@@ -959,7 +960,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Skin'],
   },
   {
-    id: '602',
+    id: '5-02',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Germany',
@@ -970,10 +971,10 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '603',
+    id: '5-03',
     category: 'Catering',
     subcategory: 'Cafe',
-    region: 'Japan',
+    region: 'Tokyo',
     robotType: 'BellaBot',
     clientName: 'Starbucks',
     videoUrl: 'https://drive.google.com/file/d/1eqhz9PiMxl2xXCUj9-vojoOGdM4OHBBr/view?usp=share_link',
@@ -981,7 +982,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Cover'],
   },
   {
-    id: '604',
+    id: '5-04',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Malaysia',
@@ -992,7 +993,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '605',
+    id: '5-05',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Malaysia',
@@ -1003,7 +1004,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '606',
+    id: '5-06',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Malaysia',
@@ -1014,7 +1015,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '607',
+    id: '5-07',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Malaysia',
@@ -1025,7 +1026,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '608',
+    id: '5-08',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Malaysia',
@@ -1036,7 +1037,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '609',
+    id: '5-09',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'USA',
@@ -1047,7 +1048,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '610',
+    id: '5-10',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'Switzerland',
@@ -1058,7 +1059,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Skin'],
   },
   {
-    id: '611',
+    id: '5-11',
     category: 'Catering',
     subcategory: 'Cafe',
     region: 'India',
@@ -1069,9 +1070,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
 
-  // --- 2. Catering: Chinese ---
+  // --- 6. Catering: Chinese (Page 9) ---
   {
-    id: '701',
+    id: '6-01',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Australia',
@@ -1082,18 +1083,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Scan Order'],
   },
   {
-    id: '702',
+    id: '6-03',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Australia',
     robotType: 'PuduBot',
     clientName: "MR Su's",
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-中餐-澳大利亚-20210729.mp4"
     rating: 2,
     keywords: ['Sticker'],
   },
   {
-    id: '703',
+    id: '6-04',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Canada',
@@ -1104,7 +1105,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '704',
+    id: '6-05',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Malaysia',
@@ -1115,7 +1116,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '705',
+    id: '6-06',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Malaysia',
@@ -1126,29 +1127,29 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad', 'Tray'],
   },
   {
-    id: '706',
+    id: '6-07',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'USA',
     robotType: 'HolaBot',
     clientName: 'Sapporo',
-    videoUrl: '',
+    videoUrl: '', // "好啦-中餐-美国.MP4"
     rating: 1,
     keywords: ['Dish Return'],
   },
   {
-    id: '707',
+    id: '6-08',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'USA',
     robotType: 'PuduBot',
     clientName: 'Dim Sum',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-粤式早茶店-美国.MP4"
     rating: 2,
     keywords: ['Birthday Mode', 'Sticker'],
   },
   {
-    id: '708',
+    id: '6-09',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Saudi Arabia',
@@ -1159,7 +1160,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '709',
+    id: '6-10',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Taiwan',
@@ -1170,18 +1171,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Sticker'],
   },
   {
-    id: '710',
+    id: '6-11',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Taiwan',
     robotType: 'HolaBot',
     clientName: 'Din Tai Fung',
-    videoUrl: '',
+    videoUrl: '', // "好啦-鼎泰丰-台湾-20210902-01.mp4"
     rating: 2,
     keywords: ['Delivery Mode'],
   },
   {
-    id: '711',
+    id: '6-12',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Hong Kong',
@@ -1192,7 +1193,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Host Mode', 'Delivery Mode', 'Birthday Mode', 'Cover', 'Tray', 'Sticker'],
   },
   {
-    id: '712',
+    id: '6-13',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Hong Kong',
@@ -1203,7 +1204,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Cover', 'Large Screen Ad', 'Button'],
   },
   {
-    id: '713',
+    id: '6-14',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Singapore',
@@ -1214,7 +1215,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '714',
+    id: '6-15',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Singapore',
@@ -1225,7 +1226,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '715',
+    id: '6-16',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'Indonesia',
@@ -1236,7 +1237,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '716',
+    id: '6-17',
     category: 'Catering',
     subcategory: 'Chinese',
     region: 'UK',
@@ -1247,20 +1248,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Running'],
   },
 
-  // --- 2. Catering: Southeast Asian ---
+  // --- 7. Catering: Southeast Asian (Page 9-10) ---
   {
-    id: '801',
+    id: '7-01',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Australia',
     robotType: 'PuduBot',
     clientName: 'Indian Restaurant',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-印度餐厅-澳大利亚-20211221.MP4"
     rating: 2,
     keywords: ['Delivery Mode', 'Multi-table'],
   },
   {
-    id: '802',
+    id: '7-02',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Canada',
@@ -1271,7 +1272,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad', 'Birthday Mode'],
   },
   {
-    id: '803',
+    id: '7-03',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1282,7 +1283,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '804',
+    id: '7-04',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1293,7 +1294,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker'],
   },
   {
-    id: '805',
+    id: '7-05',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1304,7 +1305,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Sticker'],
   },
   {
-    id: '806',
+    id: '7-06',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1315,7 +1316,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '807',
+    id: '7-07',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1326,7 +1327,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '808',
+    id: '7-08',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1337,7 +1338,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '809',
+    id: '7-09',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1348,7 +1349,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '810',
+    id: '7-10',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1359,7 +1360,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '811',
+    id: '7-11',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Malaysia',
@@ -1370,7 +1371,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Cover'],
   },
   {
-    id: '812',
+    id: '7-12',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'USA',
@@ -1381,7 +1382,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '813',
+    id: '7-13',
     category: 'Catering',
     subcategory: 'Southeast Asian',
     region: 'Hong Kong',
@@ -1392,9 +1393,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
 
-  // --- 2. Catering: Hotel/Dessert/Middle Eastern ---
+  // --- 8. Catering: Hotel/Dessert/Middle Eastern (Page 10-11) ---
   {
-    id: '901',
+    id: '8-01',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Ireland',
@@ -1405,7 +1406,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '902',
+    id: '8-02',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Poland',
@@ -1416,7 +1417,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Host Mode'],
   },
   {
-    id: '903',
+    id: '8-03',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Poland',
@@ -1427,18 +1428,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Delivery Mode'],
   },
   {
-    id: '904',
+    id: '8-04',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Poland',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & HolaBot
     clientName: 'Hotelu O3',
     videoUrl: 'https://www.youtube.com/watch?v=KZ644p7VAg8',
     rating: 4,
     keywords: ['Touch', 'IOT Automatic Door'],
   },
   {
-    id: '905',
+    id: '8-05',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Poland',
@@ -1449,7 +1450,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Dish Return'],
   },
   {
-    id: '906',
+    id: '8-06',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Japan',
@@ -1460,7 +1461,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Watch', 'Dish Return'],
   },
   {
-    id: '907',
+    id: '8-07',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Hong Kong',
@@ -1471,18 +1472,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '908',
+    id: '8-08',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Hong Kong',
-    robotType: 'FlashBot',
+    robotType: 'FlashBot', // & HolaBot
     clientName: 'Alva Hotel',
     videoUrl: 'https://youtu.be/o2fBnMtlE7Y',
     rating: 3,
     keywords: ['Delivery Mode', 'Sticker', 'Combo'],
   },
   {
-    id: '909',
+    id: '8-09',
     category: 'Catering',
     subcategory: 'Hotel Restaurant',
     region: 'Singapore',
@@ -1493,18 +1494,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Dish Return'],
   },
   {
-    id: '910',
+    id: '8-10',
     category: 'Catering',
     subcategory: 'Dessert Shop',
     region: 'Germany',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & HolaBot
     clientName: 'Giovanni L.',
     videoUrl: 'https://www.youtube.com/watch?v=75AiJPhXVvM',
     rating: 2,
     keywords: ['Delivery Mode'],
   },
   {
-    id: '911',
+    id: '8-11',
     category: 'Catering',
     subcategory: 'Dessert Shop',
     region: 'Germany',
@@ -1515,7 +1516,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Combo: Bella+Hola'],
   },
   {
-    id: '912',
+    id: '8-12',
     category: 'Catering',
     subcategory: 'Middle Eastern',
     region: 'Dubai',
@@ -1526,7 +1527,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Birthday Mode', 'Delivery Mode'],
   },
   {
-    id: '913',
+    id: '8-13',
     category: 'Catering',
     subcategory: 'Middle Eastern',
     region: 'UAE',
@@ -1537,7 +1538,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '914',
+    id: '8-14',
     category: 'Catering',
     subcategory: 'Middle Eastern',
     region: 'Netherlands',
@@ -1548,7 +1549,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Combo: Bella+Hola'],
   },
   {
-    id: '915',
+    id: '8-15',
     category: 'Catering',
     subcategory: 'Middle Eastern',
     region: 'Kuwait',
@@ -1559,9 +1560,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Host Mode'],
   },
 
-  // --- 3. Retail: Supermarket ---
+  // --- 3. Retail: Supermarket (Page 11) ---
   {
-    id: '1001',
+    id: '3-01',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Andorra',
@@ -1572,7 +1573,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running', 'Tray Rack'],
   },
   {
-    id: '1002',
+    id: '3-02',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Chile',
@@ -1583,18 +1584,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Large Screen Ad'],
   },
   {
-    id: '1003',
+    id: '3-03',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Guyana',
     robotType: 'KettyBot',
-    clientName: 'Guía en supermercado',
+    clientName: 'Guía en supermercado',
     videoUrl: 'https://drive.google.com/file/d/1jwXfXe8CXj_E71HR4Pd_K7BdbHqVcwLW/view?usp=share_link',
     rating: 3,
     keywords: ['Guide', 'Large Screen Ad', 'Cruise Mode'],
   },
   {
-    id: '1004',
+    id: '3-04',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Taiwan',
@@ -1605,7 +1606,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '1005',
+    id: '3-05',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Thailand',
@@ -1616,7 +1617,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '1006',
+    id: '3-06',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'USA',
@@ -1627,7 +1628,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Host Mode', 'Large Screen Ad', 'Sticker', 'Combo'],
   },
   {
-    id: '1007',
+    id: '3-07',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Japan',
@@ -1638,7 +1639,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Cruise Mode'],
   },
   {
-    id: '1008',
+    id: '3-08',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Turkey',
@@ -1649,7 +1650,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running', 'Sticker'],
   },
   {
-    id: '1009',
+    id: '3-09',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Jordan',
@@ -1660,7 +1661,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
   {
-    id: '1010',
+    id: '3-10',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Saudi Arabia',
@@ -1671,7 +1672,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Combo: Ketty+Bella'],
   },
   {
-    id: '1011',
+    id: '3-11',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'Russia',
@@ -1682,20 +1683,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Sticker', 'Combo: Ketty+Bella'],
   },
   {
-    id: '1012',
+    id: '3-12',
     category: 'Retail',
     subcategory: 'Supermarket',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Supermarket',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-超市-韩国-202003-01.MP4"
     rating: 2,
     keywords: ['Sticker', 'Cruise Mode'],
   },
 
-  // --- 3. Retail: Shopping Mall ---
+  // --- 3. Retail: Shopping Mall (Page 12) ---
   {
-    id: '1101',
+    id: '3-13',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Saudi Arabia',
@@ -1703,10 +1704,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Al Othaim Mall',
     videoUrl: 'https://www.youtube.com/watch?v=h6ZaGa8buC4',
     rating: 4,
-    keywords: ['Host Mode', 'Large Screen Ad', 'Cruise Mode', 'Recharge'],
+    keywords: ['Host Mode', 'Large Screen Ad', 'Cruise Mode', 'Auto Recharge'],
   },
   {
-    id: '1102',
+    id: '3-14',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Malaysia',
@@ -1717,7 +1718,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Host Mode', 'Large Screen Ad'],
   },
   {
-    id: '1103',
+    id: '3-15',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Europe',
@@ -1728,7 +1729,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Cruise Mode'],
   },
   {
-    id: '1104',
+    id: '3-16',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Hong Kong',
@@ -1739,7 +1740,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Host Mode'],
   },
   {
-    id: '1105',
+    id: '3-17',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Philippines',
@@ -1750,7 +1751,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Sticker'],
   },
   {
-    id: '1106',
+    id: '3-18',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'China',
@@ -1758,10 +1759,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Wanxiang',
     videoUrl: 'https://youtu.be/SN8wnfDJsGI',
     rating: 2,
-    keywords: ['Delivery Mode', 'Running', 'Scheduling'],
+    keywords: ['Delivery Mode', 'Running', 'Multi-robot scheduling'],
   },
   {
-    id: '1107',
+    id: '3-19',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Japan',
@@ -1772,20 +1773,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad'],
   },
   {
-    id: '1108',
+    id: '3-20',
     category: 'Retail',
     subcategory: 'Shopping Mall',
     region: 'Australia',
-    robotType: 'KettyBot',
+    robotType: 'KettyBot', // & Bella, PuduBot, Hola
     clientName: 'Al Othaim Mall',
     videoUrl: 'https://youtu.be/esBeWUHnz2g',
     rating: 2,
     keywords: ['Sticker'],
   },
 
-  // --- 3. Retail: Others (Electronics, etc) ---
+  // --- 3. Retail: Others (Page 12-13) ---
   {
-    id: '1201',
+    id: '3-21',
     category: 'Retail',
     subcategory: 'Building Material',
     region: 'Netherlands',
@@ -1796,7 +1797,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Skin', 'Greeter', 'Large Screen Ad', 'Guide'],
   },
   {
-    id: '1202',
+    id: '3-22',
     category: 'Retail',
     subcategory: 'Electronics',
     region: 'Netherlands',
@@ -1807,7 +1808,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Cruise Mode', 'Guide', 'Skin', 'Greeter'],
   },
   {
-    id: '1203',
+    id: '3-23',
     category: 'Retail',
     subcategory: 'Electronics',
     region: 'Netherlands',
@@ -1818,43 +1819,43 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Skin'],
   },
   {
-    id: '1204',
+    id: '3-24',
     category: 'Retail',
     subcategory: 'Electronics',
     region: 'Austria',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & Hola
     clientName: 'Media Market',
     videoUrl: 'https://drive.google.com/file/d/1-EwvjI-K3fvSO1iOA_ga0gve1xQM_mTF/view?usp=share_link',
     rating: 1,
     keywords: ['Skin', 'Running'],
   },
   {
-    id: '1205',
+    id: '3-25',
     category: 'Retail',
     subcategory: 'Retail Brand',
     region: 'Jordan',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & Ketty
     clientName: 'Coca Cola',
     videoUrl: 'https://drive.google.com/file/d/1kmcd1FmElbcvbvl34cwQyuPOJFTkU1Cg/view?usp=share_link',
     rating: 1,
     keywords: ['Running', 'Touch'],
   },
   {
-    id: '1206',
+    id: '3-26',
     category: 'Retail',
     subcategory: 'Retail Brand',
     region: 'Jordan',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & Ketty
     clientName: 'M&M',
     videoUrl: 'https://drive.google.com/drive/folders/1tRb7_Bmmx5nqngCuz2EToagDfDc7E_wj?usp=share_link',
     rating: 1,
     keywords: ['Skin', 'Running'],
   },
   {
-    id: '1207',
+    id: '3-27',
     category: 'Retail',
     subcategory: 'Telecom',
-    region: 'Australia',
+    region: 'Australia', // OCR says Melbourne so Australia
     robotType: 'KettyBot',
     clientName: 'Tienda',
     videoUrl: 'https://drive.google.com/file/d/1oz2eKp6ZQNYlwPIsfmxQq8cvGM1-Jjmd/view?usp=share_link',
@@ -1862,9 +1863,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
 
-  // --- 4. Other: Medical ---
+  // --- 4. Other: Medical (Page 13) ---
   {
-    id: '1301',
+    id: '4-01',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Estonia',
@@ -1872,10 +1873,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Tartu Ülikooli Kliinikumis',
     videoUrl: 'https://www.youtube.com/shorts/cpmRMVLMw-U',
     rating: 2,
-    keywords: ['Greeter', 'Large Screen Ad', 'Recharge'],
+    keywords: ['Greeter', 'Large Screen Ad', 'Auto Recharge'],
   },
   {
-    id: '1302',
+    id: '4-02',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Hong Kong',
@@ -1883,10 +1884,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'HK Hospitals',
     videoUrl: 'https://youtu.be/eVrR6xqVQUg',
     rating: 3,
-    keywords: ['Sticker', 'Cover'],
+    keywords: ['Sticker', 'Dish Cover'],
   },
   {
-    id: '1303',
+    id: '4-03',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Malaysia',
@@ -1897,7 +1898,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Sticker', 'Birthday Mode'],
   },
   {
-    id: '1304',
+    id: '4-04',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Japan',
@@ -1908,7 +1909,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Large Screen Ad'],
   },
   {
-    id: '1305',
+    id: '4-05',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Australia',
@@ -1919,7 +1920,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '1306',
+    id: '4-06',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Japan',
@@ -1930,53 +1931,53 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Delivery Mode', 'Host Mode'],
   },
   {
-    id: '1307',
+    id: '4-07',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Thailand',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & Puductor
     clientName: 'Square Cabin Hospital',
     videoUrl: 'https://www.youtube.com/watch?v=EPkE4JWsTxs',
     rating: 2,
     keywords: ['Running'],
   },
   {
-    id: '1308',
+    id: '4-08',
     category: 'Other',
     subcategory: 'Medical',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Dental Clinic',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-牙科门诊-韩国-02.mov"
     rating: 3,
-    keywords: ['Delivery Mode', 'Cover'],
+    keywords: ['Delivery Mode', 'Dish Cover'],
   },
   {
-    id: '1309',
+    id: '4-09',
     category: 'Other',
     subcategory: 'Medical',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Hospital',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-医院-韩国-01.MP4"
     rating: 1,
     keywords: ['Cruise Mode'],
   },
   {
-    id: '1310',
+    id: '4-10',
     category: 'Other',
     subcategory: 'Medical',
     region: 'Thailand',
     robotType: 'PuduBot',
     clientName: 'Hospital Ward',
-    videoUrl: '',
+    videoUrl: '', // "欢乐送-医院-泰国-20210823.mp4"
     rating: 1,
     keywords: ['Delivery Mode'],
   },
 
-  // --- 4. Other: Office/Factory/Etc ---
+  // --- 4. Other: Office/Factory/Etc (Page 13-14) ---
   {
-    id: '1401',
+    id: '4-11',
     category: 'Other',
     subcategory: 'Office',
     region: 'Australia',
@@ -1987,7 +1988,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '1402',
+    id: '4-12',
     category: 'Other',
     subcategory: 'Office',
     region: 'Hong Kong',
@@ -1995,32 +1996,32 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Innocore',
     videoUrl: 'https://drive.google.com/file/d/1n4B9s1XiqWoYrRFPYVzxy-HjZdgYWGgp/view?usp=share_link',
     rating: 2,
-    keywords: ['Spray'],
+    keywords: ['Disinfection Spray'],
   },
   {
-    id: '1403',
+    id: '4-13',
     category: 'Other',
     subcategory: 'Office',
-    region: 'China',
-    robotType: 'KettyBot',
+    region: 'Shenzhen',
+    robotType: 'KettyBot', // & FlashBot
     clientName: 'Office',
     videoUrl: 'https://youtu.be/hPy6eNk5ToQ',
     rating: 4,
     keywords: ['Running', 'Host Mode', 'Cruise Mode', 'IOT'],
   },
   {
-    id: '1404',
+    id: '4-14',
     category: 'Other',
     subcategory: 'Event',
     region: 'UAE',
-    robotType: 'BellaBot',
+    robotType: 'BellaBot', // & Ketty
     clientName: 'FIRSTGULF',
     videoUrl: 'https://drive.google.com/file/d/1v65XbEZpw1mibfeu72R7EbCPQ9ZZAWy6/view?usp=share_link',
     rating: 1,
     keywords: ['Running'],
   },
   {
-    id: '1405',
+    id: '4-15',
     category: 'Other',
     subcategory: 'Event',
     region: 'UAE',
@@ -2031,7 +2032,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Combo: Ketty+Bella', 'Large Screen Ad'],
   },
   {
-    id: '1406',
+    id: '4-16',
     category: 'Other',
     subcategory: 'Studio',
     region: 'Italy',
@@ -2042,7 +2043,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Host Mode'],
   },
   {
-    id: '1407',
+    id: '4-17',
     category: 'Other',
     subcategory: 'Event',
     region: 'Malaysia',
@@ -2050,10 +2051,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Association Meeting',
     videoUrl: 'https://youtu.be/D2GVIcjtDBk',
     rating: 2,
-    keywords: ['Delivery Mode', 'Scheduling'],
+    keywords: ['Delivery Mode', 'Multi-robot scheduling'],
   },
   {
-    id: '1408',
+    id: '4-18',
     category: 'Other',
     subcategory: 'Event',
     region: 'Saudi Arabia',
@@ -2064,7 +2065,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '1409',
+    id: '4-19',
     category: 'Other',
     subcategory: 'Event',
     region: 'Hong Kong',
@@ -2075,7 +2076,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '1410',
+    id: '4-20',
     category: 'Other',
     subcategory: 'Factory',
     region: 'China',
@@ -2086,7 +2087,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '1411',
+    id: '4-21',
     category: 'Other',
     subcategory: 'Factory',
     region: 'Japan',
@@ -2097,7 +2098,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Watch', 'Delivery Mode'],
   },
   {
-    id: '1412',
+    id: '4-22',
     category: 'Other',
     subcategory: 'Factory',
     region: 'Australia',
@@ -2108,7 +2109,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '1413',
+    id: '4-23',
     category: 'Other',
     subcategory: 'Factory',
     region: 'Japan',
@@ -2119,7 +2120,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode'],
   },
   {
-    id: '1414',
+    id: '4-24',
     category: 'Other',
     subcategory: 'Automotive 4S',
     region: 'Netherlands',
@@ -2130,18 +2131,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Host Mode', 'Large Screen Ad'],
   },
   {
-    id: '1415',
+    id: '4-25',
     category: 'Other',
     subcategory: 'Automotive 4S',
     region: 'Indonesia',
     robotType: 'BellaBot',
     clientName: 'Lexus',
-    videoUrl: '', 
+    videoUrl: '', // "贝拉-4s 店-台湾-20210728.mp4"
     rating: 1,
     keywords: ['Running'],
   },
   {
-    id: '1416',
+    id: '4-26',
     category: 'Other',
     subcategory: 'Automotive 4S',
     region: 'Thailand',
@@ -2152,7 +2153,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '1417',
+    id: '4-27',
     category: 'Other',
     subcategory: 'Nursing Home',
     region: 'Japan',
@@ -2163,20 +2164,20 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'App Call'],
   },
   {
-    id: '1418',
+    id: '4-28',
     category: 'Other',
     subcategory: 'Nursing Home',
     region: 'South Korea',
     robotType: 'PuduBot',
     clientName: 'Nursing Home',
-    videoUrl: '', 
+    videoUrl: '', // "欢乐送-养老院.mp4"
     rating: 3,
-    keywords: ['Sticker', 'Cover'],
+    keywords: ['Sticker', 'Dish Cover'],
   },
 
-  // --- 4. Other: Transport/Entertainment ---
+  // --- 5. Other: Transport/Entertainment (Page 15) ---
   {
-    id: '1501',
+    id: '5-01',
     category: 'Other',
     subcategory: 'Exhibition',
     region: 'Ethiopia',
@@ -2187,7 +2188,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '1502',
+    id: '5-02',
     category: 'Other',
     subcategory: 'Transport',
     region: 'Russia',
@@ -2198,7 +2199,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Host Mode'],
   },
   {
-    id: '1503',
+    id: '5-03',
     category: 'Other',
     subcategory: 'Transport',
     region: 'Russia',
@@ -2209,7 +2210,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '1504',
+    id: '5-04',
     category: 'Other',
     subcategory: 'Media',
     region: 'Europe',
@@ -2220,7 +2221,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Touch', 'Delivery Mode'],
   },
   {
-    id: '1505',
+    id: '5-05',
     category: 'Other',
     subcategory: 'TV Show',
     region: 'Netherlands',
@@ -2231,7 +2232,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '1506',
+    id: '5-06',
     category: 'Other',
     subcategory: 'Library',
     region: 'Canada',
@@ -2242,7 +2243,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '1507',
+    id: '5-07',
     category: 'Other',
     subcategory: 'Entertainment',
     region: 'China',
@@ -2253,7 +2254,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Delivery Mode', 'Birthday Mode'],
   },
   {
-    id: '1508',
+    id: '5-08',
     category: 'Other',
     subcategory: 'Entertainment',
     region: 'Australia',
@@ -2264,18 +2265,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Running'],
   },
   {
-    id: '1509',
+    id: '5-09',
     category: 'Other',
     subcategory: 'Retail',
     region: 'France',
     robotType: 'KettyBot',
     clientName: 'Joueclub',
-    videoUrl: '', 
+    videoUrl: '', // "KettyBot_JouéClub_France_01.mp4"
     rating: 2,
     keywords: ['Running'],
   },
   {
-    id: '1510',
+    id: '5-10',
     category: 'Other',
     subcategory: 'Entertainment',
     region: 'Russia',
@@ -2286,18 +2287,18 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Large Screen Ad', 'Running'],
   },
   {
-    id: '1511',
+    id: '5-11',
     category: 'Other',
     subcategory: 'Entertainment',
     region: 'Canada',
-    robotType: 'KettyBot',
+    robotType: 'KettyBot', // & Bella, PuduBot
     clientName: 'Xtreme Trampoline Park',
     videoUrl: 'https://youtu.be/KgPh6YxtmTk',
     rating: 4,
-    keywords: ['Combo: Bella+Puductor+CC1'],
+    keywords: ['Combo: Bella+PuduBot'],
   },
   {
-    id: '1512',
+    id: '5-12',
     category: 'Other',
     subcategory: 'Entertainment',
     region: 'Poland',
@@ -2308,9 +2309,9 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Sticker', 'Running'],
   },
 
-  // --- 5. Cleaning ---
+  // --- 6. Cleaning (Page 15-16) ---
   {
-    id: '1601',
+    id: '6-01',
     category: 'Cleaning',
     subcategory: 'SH1',
     region: 'Global',
@@ -2321,7 +2322,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Oil Cleaning'],
   },
   {
-    id: '1602',
+    id: '6-02',
     category: 'Cleaning',
     subcategory: 'SH1',
     region: 'Global',
@@ -2332,7 +2333,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Washing'],
   },
   {
-    id: '1603',
+    id: '6-03',
     category: 'Cleaning',
     subcategory: 'SH1',
     region: 'Global',
@@ -2343,139 +2344,139 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Slope Cleaning'],
   },
   {
-    id: '1604',
+    id: '6-04',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Canada',
     robotType: 'CC1',
     clientName: 'Restaurant',
-    videoUrl: '', 
+    videoUrl: '', // "restaurant3.mp4"
     rating: 4,
     keywords: ['Cement Tile'],
   },
   {
-    id: '1605',
+    id: '6-05',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Russia',
     robotType: 'CC1',
     clientName: 'Supermarket',
-    videoUrl: '', 
+    videoUrl: '', // "supermarket3.mp4"
     rating: 4,
-    keywords: ['Water Cleaning'],
+    keywords: ['Fresh Area Water Stain'],
   },
   {
-    id: '1606',
+    id: '6-06',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Russia',
     robotType: 'CC1',
     clientName: 'Parking Lot',
-    videoUrl: '', 
+    videoUrl: '', // "workshop3.mp4"
     rating: 4,
     keywords: ['Cement Floor'],
   },
   {
-    id: '1607',
+    id: '6-07',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'China',
     robotType: 'CC1',
     clientName: 'Train Station',
-    videoUrl: '', 
+    videoUrl: '', // "1668414006608.mp4"
     rating: 4,
-    keywords: ['Marble'],
+    keywords: ['Marble Tile'],
   },
   {
-    id: '1608',
+    id: '6-08',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Singapore',
     robotType: 'CC1',
     clientName: 'Airport',
-    videoUrl: '', 
+    videoUrl: '', // "airport2.mp4"
     rating: 4,
     keywords: ['Carpet'],
   },
   {
-    id: '1609',
+    id: '6-09',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Global',
     robotType: 'CC1',
     clientName: 'Retail',
-    videoUrl: '', 
+    videoUrl: '', // "store 1.mp4"
     rating: 4,
-    keywords: ['Marble'],
+    keywords: ['Marble Tile'],
   },
   {
-    id: '1610',
+    id: '6-10',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Russia',
     robotType: 'CC1',
     clientName: 'Gym',
-    videoUrl: '', 
+    videoUrl: '', // "gym2.mp4"
     rating: 4,
     keywords: ['Wood Floor'],
   },
   {
-    id: '1611',
+    id: '6-11',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Japan',
     robotType: 'CC1',
     clientName: 'Office',
-    videoUrl: '', 
+    videoUrl: '', // "office building4.mp4"
     rating: 4,
     keywords: ['Short Carpet'],
   },
   {
-    id: '1612',
+    id: '6-12',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'China',
     robotType: 'CC1',
     clientName: 'Office',
-    videoUrl: '', 
+    videoUrl: '', // "office building5.mp4"
     rating: 4,
-    keywords: ['Hard Floor', 'Stain'],
+    keywords: ['Hard Floor', 'Coffee Stain'],
   },
   {
-    id: '1613',
+    id: '6-13',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Russia',
     robotType: 'CC1',
     clientName: 'Bank',
-    videoUrl: '', 
+    videoUrl: '', // "bank1.mp4"
     rating: 4,
     keywords: ['Hard Floor'],
   },
   {
-    id: '1614',
+    id: '6-14',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Japan',
     robotType: 'CC1',
     clientName: 'Hospital',
-    videoUrl: '', 
+    videoUrl: '', // "hospital1.mp4"
     rating: 4,
     keywords: ['Hard Floor', 'Corridor'],
   },
   {
-    id: '1615',
+    id: '6-15',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Russia',
     robotType: 'CC1',
     clientName: 'Showroom',
-    videoUrl: '', 
+    videoUrl: '', // "showroom3.mp4"
     rating: 4,
     keywords: ['Short Carpet'],
   },
   {
-    id: '1616',
+    id: '6-16',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Costa Rica',
@@ -2486,7 +2487,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Wood Floor', 'Tile'],
   },
   {
-    id: '1617',
+    id: '6-17',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'China',
@@ -2494,10 +2495,10 @@ export const INITIAL_DATA: VideoCase[] = [
     clientName: 'Subway Station',
     videoUrl: 'https://drive.google.com/file/d/1ohkEl2LV9tnySCr3hD0y9Wlkylgu_xWf/view?usp=share_link',
     rating: 4,
-    keywords: ['Marble'],
+    keywords: ['Marble Tile'],
   },
   {
-    id: '1618',
+    id: '6-18',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'China',
@@ -2508,7 +2509,7 @@ export const INITIAL_DATA: VideoCase[] = [
     keywords: ['Hard Floor'],
   },
   {
-    id: '1619',
+    id: '6-19',
     category: 'Cleaning',
     subcategory: 'CC1',
     region: 'Canada',
